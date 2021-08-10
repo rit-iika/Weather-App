@@ -1,0 +1,105 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  /* border-radius: 20px; */
+  /* width: 60%; */
+  height: 100vh;
+  padding: 20px;
+  /* margin: 20px auto; */
+  font-family: "Georama", sans-serif;
+}
+.App.dark {
+  background: black;
+  color: white;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+  font-family: "Style Script", cursive;
+}
+input {
+  text-align: center;
+  padding: 0px 7px;
+}
+.form button {
+  padding: 6px;
+  margin: 0px 5px;
+  font-family: "Style Script", cursive;
+}
+.weather {
+  /* border: 1px solid red; */
+  margin: 0px auto;
+  width: 60%;
+}
+.head {
+  font-size: 3rem;
+  font-family: "Style Script", cursive;
+}
+h5 {
+  font-size: 1.8rem;
+  font-family: "Style Script", cursive;
+}
+.card {
+  /* transform: perspective(800px) rotateY(-8deg); */
+  /* transition: transform 1s ease 0s; */
+  border-radius: 15px;
+  margin: 10px auto;
+  width: 100%;
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+    rgba(27, 17, 17, 0.05) 0px 1px 0px 0px, rgba(0, 0, 0, 0.03) 0px 0px 8px 0px,
+    rgba(0, 0, 0, 0.1) 0px 20px 30px 0px;
+}
+.card.dark {
+  background-color: rgb(27, 27, 27);
+  color: white;
+}
+.card .city {
+  /* border: 1px solid blue; */
+  margin: 0px;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+.card .cityname {
+  font-weight: bold;
+  margin-top: 3px;
+  font-family: "Style Script", cursive;
+}
+.card img {
+  /* border:1px solid red; */
+  width: 36%;
+  margin-top: 2px;
+}
+.card .temp {
+  margin: 0px;
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+.box {
+  border: 2px solid red;
+  margin: 2px;
+  font-size: 0.6rem;
+}
+.title {
+  /* font-weight: bold; */
+  font-size: 20px;
+  margin-top: 2px;
+}
+.data {
+  font-size: 10px;
+}
+/*
+https://github.com/Niraj1920/Inter-IIT-NIT-IIIT-solutions-2019-20
+*/
+.theme {
+  position: fixed;
+  left: 35%;
+  top: 10px;
+}
